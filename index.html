@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light menu-bar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Achive</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Setting</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="col-4 main-action">
+                    <button type="button" class="btn main-color"><i class="fa fa-shopping-cart"></i>Scan QR Code</button>
+                    <button type="button" class="btn main-color">Create Qr Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 qr-code-item">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <div class="qr-code-thumbnail">
+                                <img src="assets/images/qrcode.jpg" class="card-img" >
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title">My Summer website Campaign Qr Code</h5>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Created URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <p class="card-text">8 Jan 2019 / 11:41:51 </p>
+                                    </div>     
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Short URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <a href="#" class="card-link">www.google.co.th</a>
+                                    </div>     
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Target URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <a href="#" class="card-link">www.google.co.th</a>
+                                    </div>     
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Download
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <a class="dropdown-item" href="#">EPS</a>
+                                        <a class="dropdown-item" href="#">SVG</a>
+                                    </div>
+
+                                    <a href="#" class="btn btn-link">Statictic</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 card-result-info">
+                            <div class="card-result-stat">
+                                <h5>2598</h5>
+                                <small>SCANS</small>
+                            </div>
+                            <div class="card-result-stat">
+                                <h5 class="unique">798</h5>
+                                <small class="unique">Unique</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 qr-code-item">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <div class="qr-code-thumbnail">
+                                <img src="assets/images/qrcode.jpg" class="card-img" >
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title">My Summer website Campaign Qr Code</h5>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Created URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <p class="card-text">8 Jan 2019 / 11:41:51 </p>
+                                    </div>     
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Short URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <a href="#" class="card-link">www.google.co.th</a>
+                                    </div>     
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Target URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <a href="#" class="card-link">www.google.co.th</a>
+                                    </div>     
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Download
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <a class="dropdown-item" href="#">EPS</a>
+                                        <a class="dropdown-item" href="#">SVG</a>
+                                    </div>
+
+                                    <a href="#" class="btn btn-link">Statictic</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 card-result-info">
+                            <div class="card-result-stat">
+                                <h5>2598</h5>
+                                <small>SCANS</small>
+                            </div>
+                            <div class="card-result-stat">
+                                <h5 class="unique">798</h5>
+                                <small class="unique">Unique</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 qr-code-item">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <div class="qr-code-thumbnail">
+                                <img src="assets/images/qrcode.jpg" class="card-img" >
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title">My Summer website Campaign Qr Code</h5>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Created URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <p class="card-text">8 Jan 2019 / 11:41:51 </p>
+                                    </div>     
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Short URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <a href="#" class="card-link">www.google.co.th</a>
+                                    </div>     
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6>Target URL : </h6>
+                                    </div> 
+                                    <div class="col-4">
+                                        <a href="#" class="card-link">www.google.co.th</a>
+                                    </div>     
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Download
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <a class="dropdown-item" href="#">EPS</a>
+                                        <a class="dropdown-item" href="#">SVG</a>
+                                    </div>
+
+                                    <a href="#" class="btn btn-link">Statictic</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 card-result-info">
+                            <div class="card-result-stat">
+                                <h5>2598</h5>
+                                <small>SCANS</small>
+                            </div>
+                            <div class="card-result-stat">
+                                <h5 class="unique">798</h5>
+                                <small class="unique">Unique</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
